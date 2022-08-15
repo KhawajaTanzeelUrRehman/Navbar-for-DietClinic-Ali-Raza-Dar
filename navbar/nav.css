@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,200;1,300;1,400&display=swap');
+body {
+    font-family: 'Poppins';
+}
+
+.navbar-margin-right {
+    margin-right: 20vw;
+}
+
+.navbar {
+    position: absolute;
+}
+
+li>a:hover {
+    background-color: #72883B;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico';
+    padding-left: 38px;
+    color: #72883B !important;
+}
+
+.nav-link {
+    font-size: 18px !important;
+}
+
+#twitter {
+    width: 25px;
+}
+
+.mybtn {
+    margin-right: 25px;
+}
+
+.btn {
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.btn-outline-success {
+    border: 1px solid #72883B !important;
+}
+
+.links {
+    margin: auto;
+}
+
+
+/* footer css */
+
+.mycontainer {
+    background-color: #72883B;
+}
+
+
+/*
+media query
+*/
+
+@media screen and (max-width: 1078px) {
+    .btn1 {
+        display: none;
+    }
+    .navbar-brand {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .position_abs {
+        position: absolute;
+    }
+}
